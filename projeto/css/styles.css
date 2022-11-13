@@ -284,7 +284,7 @@ i {
     text-transform: uppercase;
 }
 
-/* Depimentos */
+/* Depoimentos */
 #testimonials {
     display: flex;
     align-items: center;
@@ -294,7 +294,7 @@ i {
     padding: 3rem;
 }
 
-.author {
+.autor {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -309,16 +309,16 @@ i {
     margin-bottom: 1rem;
 }
 
-    .author .author-job {
-        color: var(--secondary-text-color);
-    }
+.author .author-job {
+    color: var(--secondary-text-color);
+}
 
 .author img {
     width: 100px;
     height: 100px;
 }
 
-/* Colaboradores  */
+/* Colaboradores */
 #team {
     position: relative;
     margin-bottom: 2rem;
@@ -342,8 +342,8 @@ i {
     width: 100px;
     height: 100px;
     left: 50%;
-    margin-left: -50%;
-    top: -25%;
+    margin-left: -50px;
+    top: -25px;
 }
 
 .employees {
@@ -446,7 +446,7 @@ i {
 
 .footer-brand h2 {
     background-color: var(--main-color);
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     padding: 1rem;
 }
 
@@ -487,7 +487,7 @@ i {
 .links-container nav a {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 1rem solid var(--secondary-color);
+    border-bottom: 1px solid var(--secondary-color);
 }
 
 .phone-number {
@@ -521,6 +521,7 @@ i {
     top: 0;
     left: 100%;
     height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.95);
     display: flex;
     flex-direction: column;
@@ -544,6 +545,7 @@ i {
 
 /* Responsivo */
 @media (max-width: 450px) {
+
     /* Geral */
     body {
         overflow-x: hidden;
@@ -554,134 +556,131 @@ i {
         font-size: 2rem;
     }
 
-/* navbar */
-#navbar {
-    display: none;
-}
+    /* navbar */
+    #navbar {
+        display: none;
+    }
 
-#menu,
-#close-menu {
-    display: block;
-}
+    #menu,
+    #close-menu {
+        display: block;
+    }
 
-.banner {
-    max-width: 100%;
-    padding: 4rem 2rem;
-}
+    .banner {
+        max-width: 100%;
+        padding: 4rem 2rem;
+    }
 
-.banner h2 {
-    font-size: 3rem;
-}
+    .banner h2 {
+        font-size: 3rem;
+    }
 
-.banner p {
-    font-size: 1rem;
-}
+    .banner p {
+        font-size: 1rem;
+    }
 
-/* Áreas de atuação */
-.btn {
-    align-self: initial;
-}
+    /* Áreas de atuação */
+    .btn {
+        align-self: initial;
+    }
 
-.image-container {
-    flex: 1 1 100%;
-}
+    .image-container {
+        flex: 1 1 100%;
+    }
 
-#other-services {
-    flex-wrap: wrap;
-}
+    #other-services {
+        flex-wrap: wrap;
+    }
 
-/* Sobre nós */
-#about {
-    gap: 0;
-}
+    /* Sobre nós */
+    #about {
+        gap: 0;
+    }
 
-#about-text,
-#about-data {
-    flex: 1 1 100%;
-}
+    #about-text,
+    #about-data {
+        flex: 1 1 100%;
+    }
 
-.about-description {
-    gap: 1rem;
-}
+    .about-description {
+        gap: 1rem;
+    }
 
-.about-description i {
-    padding: 0;
-    min-width: 40px;
-}
+    .about-description i {
+        padding: 0;
+        min-width: 40px;
+    }
 
-#about #about-data .data {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid var(--secondary-text-color);
-}
+    #about #about-data .data {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid var(--secondary-text-color);
+    }
 
-/* Depoimentos */
-.text-container {
-    text-align: center;
-    padding: 2rem;
-}
+    /* Depoimentos */
+    .text-container {
+        text-align: center;
+        padding: 2rem;
+    }
 
-/* Colaboradores */
-#team {
-    margin-top: 2rem;
-}
+    /* Colaboradores */
+    #team {
+        margin-top: 2rem;
+    }
 
-#team h2 {
-    font-size: 2.5rem;
-}
+    #team h2 {
+        font-size: 2.5rem;
+    }
 
-.employees {
-    flex-wrap: wrap;
-}
+    .employees {
+        flex-wrap: wrap;
+    }
 
-/* Contato */
-#contact {
-    padding-bottom: 0;
-}
+    /* Contato */
+    #contact {
+        padding-bottom: 0;
+    }
 
-#contact-information {
-    padding: 7rem 1rem;
-}
+    #contact-information {
+        padding: 7rem 1rem;
+    }
 
-#contact-information .form-control {
-    flex-direction: column;
-}
+    #contact-information .form-control {
+        flex-direction: column;
+    }
 
-#contact-information .btn {
-    align-self: auto;
-}
+    #contact-information .btn {
+        align-self: auto;
+    }
 
-/* Rodapé */
-#footer {
-    flex-wrap: wrap;
-}
+    /* Rodapé */
+    #footer {
+        flex-wrap: wrap;
+    }
 
-#footer i {
-    font-size: 2rem;
-    padding: 1rem;
-}
+    #footer i {
+        font-size: 2rem;
+        padding: 1rem;
+    }
 
-.footer-brand {
-    text-align: center;
-}
+    .footer-brand {
+        text-align: center;
+    }
 
-.networks {
-    margin-bottom: 3rem;
-}
+    .networks {
+        margin-bottom: 3rem;
+    }
 
-.links-container {
-    margin-bottom: 1rem;
-}
+    .links-container {
+        margin-bottom: 1rem;
+    }
 
-.links-container h4 {
-    margin-bottom: 1.5rem;
-}
+    .links-container h4 {
+        margin-bottom: 1.5rem;
+    }
 
-.contact-info,
-.links-container {
-    width: 100%;
-}
-
-
-
+    .contact-info,
+    .links-container {
+        width: 100%;
+    }
 }
